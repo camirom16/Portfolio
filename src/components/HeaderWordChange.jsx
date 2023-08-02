@@ -23,8 +23,8 @@ const HeaderWordChange = () => {
 const Words = styled.p`
     color: white;
     font-family: 'Borel', cursive;
-    /* font-family: 'Outfit', sans-serif; */
-    /* font-family: 'Arvo', serif; */
+    font-size: 5vw;
+    padding-left: 18.5vw;
 
     & span {
         color: #fd9301;

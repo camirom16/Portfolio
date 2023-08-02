@@ -1,9 +1,10 @@
 import { styled } from "styled-components";
 import HeaderWordChange from "./HeaderWordChange";
+import About from "./About";
 
 const HeroPage = () => {
     return (
-        <div>
+        <HeroPageContainer>
 
             <Content>
 
@@ -21,21 +22,26 @@ const HeroPage = () => {
 
             </Content>
 
-        </div>
-    )
-}
+            <About />
 
+        </HeroPageContainer>
+    )
+};
+
+const HeroPageContainer = styled.div`
+    width: 100%;
+    height: 100%;
+`
 const Content = styled.div`
     position: relative;
     z-index: -1;
 `;
 
 const PageContainer = styled.div`
-    border: 2px solid red;
     position: relative;
-    width: 99vw;
-    height: 85vh;
-    padding-top: 100px;
+    height: 72vh;
+    padding-top: 200px;
+    padding-left: 50px;
     z-index: 1; 
 `;
 
@@ -49,15 +55,14 @@ const Background = styled.img`
     top: 0;
     left: 0;
     z-index: -2; 
-`
+`;
 
 const Title = styled.h1`
-    /* font-family: 'Outfit', sans-serif; */
-    /* font-family: 'Borel', cursive; */
-    font-family: 'Arvo', serif;
+    font-family: 'Lato', sans-serif;
     font-size: 12vw;
     color: #ffffffdc;
     text-shadow: 5px 5px 5px #87047e;
-`
+    line-height: 0.9;
+`;
 
 export default HeroPage;

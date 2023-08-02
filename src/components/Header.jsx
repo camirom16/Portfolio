@@ -39,7 +39,7 @@ const Header = () => {
 
         </HeaderContainer>
     )
-}
+};
 
 const HeaderContainer = styled.div`
     display: flex;
@@ -48,7 +48,7 @@ const HeaderContainer = styled.div`
     position: fixed;
     width: 100%;
     background-color: rgba(0, 0, 0, 0.5);
-`
+`;
 
 const ButtonMenu = styled.button`
     display: none;
@@ -65,7 +65,7 @@ const ButtonMenu = styled.button`
     &:hover {
         background-color: rgba(228, 81, 143, 0.5);
     }
-`
+`;
 
 const Button = styled.button`
     background-color: transparent;
