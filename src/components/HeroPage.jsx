@@ -12,7 +12,7 @@ const HeroPage = () => {
 
             <Content>
 
-                <Background src='../src/images/portfolio-bg.jpg' alt='background' />
+                <Background src='/src/images/portfolio-bg.jpg' alt='background' />
 
                 <PageContainer>
                     <div>
