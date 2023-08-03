@@ -1,6 +1,9 @@
 import { styled } from "styled-components";
 import HeaderWordChange from "./HeaderWordChange";
 import About from "./About";
+import Projects from "./Projects";
+import Separation from "./Separation";
+import Contact from "./Contact";
 
 const HeroPage = () => {
     return (
@@ -23,6 +26,9 @@ const HeroPage = () => {
             </Content>
 
             <About />
+            <Separation />
+            <Projects />
+            <Contact />
 
         </HeroPageContainer>
     )
@@ -38,10 +44,12 @@ const Content = styled.div`
 `;
 
 const PageContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     position: relative;
-    height: 72vh;
-    padding-top: 200px;
-    padding-left: 50px;
+    height: 100vh;
+    padding-left: 10%;
     z-index: 1; 
 `;
 

@@ -45,6 +45,8 @@ const About = () => {
 };
 
 const AboutContainer = styled.div`
+    display: flex;
+    justify-content: center;
     background-color: black;
     width: 100%;
     height: 100vh;
@@ -54,7 +56,7 @@ const Content = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 155px 50px;
+    /* padding: 100px 50px; */
 `;
 
 const Info = styled.div`
