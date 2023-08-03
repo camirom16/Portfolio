@@ -1,6 +1,7 @@
 import { styled } from "styled-components"
 import { Folder, Github, Home, Linkedin, Mail, Menu, MessageCircle, User } from "../assets/data/CustomIcons";
 import { useNavigate } from "react-router-dom";
+import logo from "../images/logo.png";
 
 
 const Header = () => {
@@ -19,7 +20,7 @@ const Header = () => {
                 <Button onClick={() => navigate("/projects")}><Folder className="icon" /></Button>
             </div>
 
-            <div><Logo src="../src/images/logo.png" alt="logo" /></div>
+            <div><Logo src={logo} alt="logo" /></div>
 
             <div>
                 <ExternalLink href="https://www.linkedin.com/in/camila-romero-b7b1b3237" target="_blank">

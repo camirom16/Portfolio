@@ -3,8 +3,8 @@ import HeaderWordChange from "./HeaderWordChange";
 import About from "./About";
 import Projects from "./Projects";
 import Separation from "./Separation";
-import Contact from "./Contact";
 import Footer from "./Footer";
+import background from "../images/portfolio-bg.jpg";
 
 const HeroPage = () => {
     return (
@@ -12,7 +12,7 @@ const HeroPage = () => {
 
             <Content>
 
-                <Background src='/src/images/portfolio-bg.jpg' alt='background' />
+                <Background src={background} alt='background' />
 
                 <PageContainer>
                     <div>
@@ -29,7 +29,6 @@ const HeroPage = () => {
             <About />
             <Separation />
             <Projects />
-            <Contact />
             <Footer />
 
         </HeroPageContainer>

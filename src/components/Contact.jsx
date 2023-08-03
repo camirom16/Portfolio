@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { styled } from "styled-components";
+import bg from "../images/contact-bg.jpg";
 
 const Contact = () => {
     const [formData, setFormData] = useState({
@@ -43,6 +44,8 @@ const Contact = () => {
 
     return (
         <FormContainer>
+            <Img src={bg} alt="background" />
+
             <Title>Reach out</Title>
     
             <Form onSubmit={handleSubmit}>
@@ -97,12 +100,21 @@ const FormContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../src/images/contact-bg.jpg');
-    background-position: center;
-    background-size: cover;
     color: white;
     width: 100%;
     min-height: 100vh;
+    z-index: 1;
+`;
+
+const Img = styled.img`
+    background-size: cover ;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2; 
 `;
 
 const Form = styled.form`
@@ -115,6 +127,7 @@ const Form = styled.form`
     max-width: 400px;
     padding: 40px;
     text-align: right;
+    z-index: 1;
 `;
 
 const Title = styled.h1`

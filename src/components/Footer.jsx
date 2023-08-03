@@ -19,7 +19,7 @@ const Footer = () => {
 }
 
 const FooterContainer = styled.div`
-background-color: rgba(0, 0, 0);
+background-color: #400361;
 color: white;
 display: flex;
 justify-content: space-between;

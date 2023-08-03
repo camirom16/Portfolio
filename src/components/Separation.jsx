@@ -1,9 +1,10 @@
 import { styled } from "styled-components"
+import deco from "../images/deco.jpg";
 
 const Separation = () => {
     return (
         <Container>
-            <Img src="../src/images/deco.jpg" alt="separation" />
+            <Img src={deco} alt="separation" />
         </Container>
     )
 }
