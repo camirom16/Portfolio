@@ -56,7 +56,6 @@ const Content = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 100px 50px; */
 `;
 
 const Info = styled.div`
@@ -69,7 +68,13 @@ const Button = styled.button`
     border: none;
     border-radius: 25px;
     width: 100%;
-    padding: 15px 5px;
+    padding: 5% 2%;
+    font-size: 1vw;
+
+    @media (max-width: 768px) {
+        font-size: 2vw;
+        padding: 1% 1%;
+    }
 `;
 
 const Languages = styled.div`

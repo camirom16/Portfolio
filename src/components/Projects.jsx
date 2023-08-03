@@ -11,9 +11,9 @@ const Projects = () => {
                     return (
                         <div key={project.id}>
                             <Info>
-                                <div>
+                                <ImgCont>
                                     <Img src={project.src} alt={project.name} />
-                                </div>
+                                </ImgCont>
 
                                 <Button>See project</Button>
                                 
@@ -44,33 +44,44 @@ const Title = styled.h1`
     font-family: 'Arvo', serif;
     font-size: 6vw;
     padding-bottom: 20px;
-`
+`;
 
 const Content = styled.div`
     display: flex;
     justify-content: space-evenly;
     width: 50vw;
-`
+`;
 
 const Info = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 15px;
-`
+`;
+
+const ImgCont = styled.div`
+    max-width: 50vw;
+`;
 
 const Img = styled.img`
     width: 20vw;
+    height: auto;
     border-radius: 60px;
-    padding: 30px 30px 30px 30px;
-    margin: 10px;
+    padding: 2vw;
+    margin: 1vw;
     background-color: #6d01a7;
     box-shadow: 0 4px 8px 0 #4f3788, 0 6px 20px 0 #4f3788;
 
     &:hover {
         transform: scale(1.1);
     }
-`
+
+    @media (max-width: 768px) {
+        width: 20vw;
+        padding: 2vw;
+        margin: 1vw;
+    }
+`;
 
 const Button = styled.button`
     border: none;
@@ -81,21 +92,21 @@ const Button = styled.button`
     color: white;
     position: relative;
     bottom: 35px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Arvo', serif;
     font-weight: bold;
-    box-shadow: 5px 5px 5px #fe8101;
-`
+    box-shadow: 0 4px 8px 0 #fe8101, 0 6px 20px 0 #fe8101;
+`;
 
 const Name = styled.p`
     font-size: 2vw;
     font-family: 'Arvo', serif;
-`
+`;
 
 const Text = styled.p`
     text-align: center;
     width: 80%;
     font-size: 1vw;
     font-family: 'Lato', sans-serif;
-`
+`;
 
 export default Projects;

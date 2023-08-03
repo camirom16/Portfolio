@@ -4,6 +4,7 @@ import About from "./About";
 import Projects from "./Projects";
 import Separation from "./Separation";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 const HeroPage = () => {
     return (
@@ -29,6 +30,7 @@ const HeroPage = () => {
             <Separation />
             <Projects />
             <Contact />
+            <Footer />
 
         </HeroPageContainer>
     )
