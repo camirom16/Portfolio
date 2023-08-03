@@ -19,7 +19,7 @@ const Header = () => {
                 <Button onClick={() => navigate("/projects")}><Folder className="icon" /></Button>
             </div>
 
-            <div><Logo src="src/images/logo.png" alt="camila" /></div>
+            <div><Logo src="../../images/logo.png" alt="logo" /></div>
 
             <div>
                 <ExternalLink href="https://www.linkedin.com/in/camila-romero-b7b1b3237" target="_blank">

@@ -6,7 +6,7 @@ const Footer = () => {
         <FooterContainer>
 
             <div>
-                <Img src="src/images/logo-footer.png" alt="logo" />
+                <Img src="../../images/logo-footer.png" alt="logo" />
                 <p>From Montreal, Canada</p>
             </div>
 
