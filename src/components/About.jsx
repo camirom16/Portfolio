@@ -35,7 +35,7 @@ const About = () => {
                 </Info>
 
                 <div>
-                    <Photo src='../../images/photo-frame.png' alt='photo' />
+                    <Photo src='../src/images/photo-frame.png' alt='photo' />
                 </div>
             
             </Content>

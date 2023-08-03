@@ -97,7 +97,7 @@ const FormContainer = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url('../../images/contact-bg.jpg');
+    background-image: url('../src/images/contact-bg.jpg');
     background-position: center;
     background-size: cover;
     color: white;

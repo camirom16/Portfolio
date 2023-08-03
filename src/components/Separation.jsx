@@ -3,7 +3,7 @@ import { styled } from "styled-components"
 const Separation = () => {
     return (
         <Container>
-            <Img src="../../images/deco.jpg" alt="separation" />
+            <Img src="../src/images/deco.jpg" alt="separation" />
         </Container>
     )
 }
