@@ -1,6 +1,7 @@
 import { styled } from "styled-components";
 import { CssIcon, Html, JavaScript } from "../assets/data/CustomIcons";
 import { FaReact } from "react-icons/fa";
+import photo from "../images/photo-frame.png";
 
 const About = () => {
     return (
@@ -35,7 +36,7 @@ const About = () => {
                 </Info>
 
                 <div>
-                    <Photo src='../src/images/photo-frame.png' alt='photo' />
+                    <Photo src={photo} alt='photo' />
                 </div>
             
             </Content>
