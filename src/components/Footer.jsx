@@ -1,12 +1,13 @@
 import { styled } from "styled-components";
 import { FaPaperPlane } from "react-icons/fa";
+import logo from "../images/logo-footer.png";
 
 const Footer = () => {
     return (
         <FooterContainer>
 
             <div>
-                <Img src="../src/images/logo-footer.png" alt="logo" />
+                <Img src={logo} alt="logo" />
                 <p>From Montreal, Canada</p>
             </div>
 
