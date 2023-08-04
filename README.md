@@ -8,17 +8,17 @@ The main purpose of this portfolio project is to showcase the skills, projects, 
 
 ## Design
 
-- **Minimalism and Simplicity**
+**Minimalism and Simplicity**
 
-The goal is to keed the focus on the content and make it easy for users to navigate through the website. 
+- The goal is to keed the focus on the content and make it easy for users to navigate through the website. 
 
-- **Responsive Design**
+**Responsive Design**
 
-The user can navigate through the website using any device. The portfolio was made to be responsive and will adapt to the various screen sizes, including smartphones, tablets and desktops. 
+- The user can navigate through the website using any device. The portfolio was made to be responsive and will adapt to the various screen sizes, including smartphones, tablets and desktops. 
 
-- **Consistency**
+**Consistency**
 
-I aimed to maintain consistency throughout the website, using the same color scheme, typography, and navigation style across all pages. This consistency ensures that users can easily understand how to interact with the website.
+- I aimed to maintain consistency throughout the website, using the same color scheme, typography, and navigation style across all pages. This consistency ensures that users can easily understand how to interact with the website.
 
 ## Implementation
 
