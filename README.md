@@ -2,7 +2,7 @@
 
 This README.md file explains the though process behind the design and implementation of my portfolio. 
 
-##The purpose
+## The purpose
 
 The main purpose of this portfolio project is to showcase the skills, projects, and accomplishments that I have acquired in the last two months and show my potential to future employers, clients, and collaborators. 
 
